@@ -1,6 +1,270 @@
-#m {
-  width: 100px;
-  height: 100px;
-  font-size: 10px;
-  !important
+/* header*/
+
+#start {
+  background-color: #ffc017;
+  padding-left: 10%;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: start;
+  border-bottom: solid 1px black;
+  font-family: 'Spectral', serif;
+}
+#navbar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 50%;
+}
+#logoheader {
+  padding-left: 4%;
+}
+#buttonbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding-right: 16%;
+}
+nav div {
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}
+.startA {
+  text-decoration: none;
+  margin-right: 0.9em;
+  margin-left: 0.9em;
+}
+#buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.black-white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 20px;
+  width: 110px;
+  height: 35px;
+  color: white;
+}
+#start2 {
+  width: 99%;
+  display: flex;
+
+  background-color: #ffc017;
+  border-bottom: solid 1px black;
+  height: 400px;
+  display: flex;
+  padding-left: 11%;
+  font-family: 'Spectral', serif;
+}
+#start2left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#start2right {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 20%;
+}
+h1 {
+  font-size: 6em;
+  font-weight: 500;
+  margin-bottom: 0.2em;
+}
+#p1start2left1 {
+  margin-bottom: 0.9em;
+  width: 380px;
+  font-size: 1.3em;
+  font-weight: normal;
+}
+#p1start2left2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 1.3em;
+  width: 175px;
+  height: 20px;
+  padding: 0.5em;
+  border-radius: 25px;
+  margin-top: 1em;
+}
+/*main*/
+main {
+  position: relative;
+  font-family: 'Spectral', serif;
+}
+.imgcontainer {
+  width: 100%;
+  position: absolute;
+  translate: 193px 50px;
+}
+
+#stonks {
+  padding: 1em;
+  width: 33px;
+  height: 33px;
+}
+#title {
+  position: absolute;
+  translate: 245px 77px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+#mainbox1 {
+  width: 100%;
+
+  padding: 5em;
+  border-bottom: solid 1px lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+/*card*/
+.card {
+  width: 400px;
+  margin: 1em;
+  display: flex;
+  flex-direction: row;
+}
+.subcard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 300px;
+}
+.subcard p {
+  position: relative;
+}
+.star {
+  width: 22px;
+  position: absolute;
+  translate: 5px -4px;
+}
+/*numero grigio opacity*/
+.number {
+  text-align: center;
+  color: grey;
+  opacity: 0.4;
+  font-size: 2em;
+  font-weight: bold;
+}
+/* immagine*/
+.cardimg {
+  border-radius: 100px;
+  width: 25px;
+  margin: 0.2em 0 0.4em 0.6em;
+}
+.cardimg3to6 {
+  border-radius: 6px;
+  width: 25px;
+  margin: 0.2em 0 0.4em 0.6em;
+}
+/*nome del tizio*/
+.name {
+  font-size: 0.8em;
+  margin: 0.5em;
+  text-align: center;
+}
+.description {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0.5em;
+}
+#description2 {
+  width: 250px;
+}
+.date {
+  margin: 0.65em;
+  margin-top: 0.3em;
+  color: grey;
+}
+#twobar {
+  display: flex;
+}
+#leftarticle {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.mainbox2 {
+  width: 800px;
+  padding-top: 2.5em;
+  padding-left: 5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.card2 {
+  margin-right: 2em;
+  margin-bottom: 1.5em;
+}
+.starbefore {
+  font-size: 0.5em;
+  width: 70px;
+  height: 30px;
+  background-color: #f1f2f2;
+  color: grey;
+  border-radius: 12px;
+}
+.description2 {
+  width: 400px;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0.5em;
+}
+.description2 span {
+  font-weight: bold;
+}
+.imgbigcard {
+  width: 200px;
+  height: 150px;
+}
+#asidebar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 2.5em;
+}
+#firts1 {
+  height: 200px;
+  border-bottom: solid 0.4px lightgray;
+}
+h4 {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+#firstbordbutton {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  font-size: 0.9em;
+  display: flex;
+  width: 430px;
+}
+.button9 {
+  font-family: 'Roboto', sans-serif;
+  margin: 0.3em;
+  padding: 0.5em;
+  border: solid 0.8px lightgray;
+  color: gray;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+  cursor: pointer;
 }
