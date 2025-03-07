@@ -17,15 +17,18 @@
   justify-content: start;
   align-items: center;
   width: 50%;
+  cursor: pointer;
 }
 #logoheader {
   padding-left: 4%;
+  cursor: pointer;
 }
 #buttonbar {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50%;
+  cursor: pointer;
   padding-right: 16%;
 }
 nav div {
@@ -36,11 +39,13 @@ nav div {
   text-decoration: none;
   margin-right: 0.9em;
   margin-left: 0.9em;
+  cursor: pointer;
 }
 #buttons {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .black-white {
   display: flex;
@@ -51,6 +56,7 @@ nav div {
   width: 110px;
   height: 35px;
   color: white;
+  cursor: pointer;
 }
 #start2 {
   width: 99%;
@@ -96,6 +102,7 @@ h1 {
   padding: 0.5em;
   border-radius: 25px;
   margin-top: 1em;
+  cursor: pointer;
 }
 /*main*/
 main {
@@ -149,6 +156,7 @@ main {
   width: 22px;
   position: absolute;
   translate: 5px -4px;
+  cursor: pointer;
 }
 /*numero grigio opacity*/
 .number {
@@ -157,36 +165,43 @@ main {
   opacity: 0.4;
   font-size: 2em;
   font-weight: bold;
+  cursor: pointer;
 }
 /* immagine*/
 .cardimg {
   border-radius: 100px;
   width: 25px;
   margin: 0.2em 0 0.4em 0.6em;
+  cursor: pointer;
 }
 .cardimg3to6 {
   border-radius: 6px;
   width: 25px;
   margin: 0.2em 0 0.4em 0.6em;
+  cursor: pointer;
 }
 /*nome del tizio*/
 .name {
   font-size: 0.8em;
   margin: 0.5em;
   text-align: center;
+  cursor: pointer;
 }
 .description {
   font-size: 1em;
   font-weight: bold;
   margin: 0.5em;
+  cursor: pointer;
 }
 #description2 {
   width: 250px;
+  cursor: pointer;
 }
 .date {
   margin: 0.65em;
   margin-top: 0.3em;
   color: grey;
+  cursor: pointer;
 }
 #twobar {
   display: flex;
@@ -210,6 +225,7 @@ main {
 .card2 {
   margin-right: 2em;
   margin-bottom: 1.5em;
+  position: relative;
 }
 .starbefore {
   font-size: 0.5em;
@@ -218,24 +234,28 @@ main {
   background-color: #f1f2f2;
   color: grey;
   border-radius: 12px;
+  cursor: pointer;
 }
 .description2 {
   width: 400px;
   font-size: 1em;
   font-weight: normal;
   margin: 0.5em;
+  cursor: pointer;
 }
 .description2 span {
   font-weight: bold;
+  cursor: pointer;
 }
 .imgbigcard {
   width: 200px;
   height: 150px;
+  cursor: pointer;
 }
 #asidebar {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
   padding-top: 2.5em;
 }
 #firts1 {
@@ -267,4 +287,27 @@ h4 {
   align-items: center;
   border-radius: 1px;
   cursor: pointer;
+}
+#first2 {
+  display: flex;
+  flex-direction: row;
+}
+#words9 {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+  width: 430px;
+  padding: 1em;
+  padding-left: 0em;
+}
+.list {
+  margin: 0.5em;
+  color: gray;
+  cursor: pointer;
+}
+
+.bookmarkimg {
+  position: absolute;
+  translate: 360px 132px;
 }
