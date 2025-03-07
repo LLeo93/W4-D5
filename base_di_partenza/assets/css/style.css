@@ -311,3 +311,7 @@ h4 {
   position: absolute;
   translate: 360px 132px;
 }
+.margin {
+  margin: 1em;
+  padding: 1em;
+}
